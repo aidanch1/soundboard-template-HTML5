@@ -1,0 +1,15 @@
+button {
+    font: 22px Arial;
+    padding: 1em 2em;
+    text-align: center;
+    color: white;
+    border: none;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, teal 50%, turquoise 50%) right;
+    background-size: 200%;
+}
+
+button:focus {
+    outline: none;
+}
